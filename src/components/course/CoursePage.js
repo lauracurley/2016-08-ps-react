@@ -7,7 +7,7 @@ class CoursePage extends React.Component {
   constructor(props, context) {
     super(props, context);
   }
-  
+
   courseRow(course, index) {
     return <div key={index}>{course.title}</div>;
   }
